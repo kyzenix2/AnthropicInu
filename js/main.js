@@ -2,9 +2,9 @@
 const TOKEN_NAME = 'Anthropic Inu';
 const TICKER = '$AI';
 const CHAIN = 'Ethereum';
-const CONTRACT_ADDRESS = ''; // empty -> "Coming soon"
+const CONTRACT_ADDRESS = '0x446f33a65b0c1ed85167d1ca6749c35008a7a3c3'; // empty -> "Coming soon"
 const BUY_URL = ''; // when empty and CA is set, build the Uniswap link below
-const X_URL = 'https://x.com/InuAnthropic';
+const X_URL = 'https://x.com/AnthropicEthInu';
 const TELEGRAM_URL = ''; // empty -> dimmed "Coming soon"
 
 const UNISWAP_FOR = (ca) =>

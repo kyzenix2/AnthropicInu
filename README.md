@@ -7,9 +7,9 @@ Open `index.html` or serve the folder: `python3 -m http.server 8080`
 Edit the block at the top of `js/main.js`:
 
 - `TOKEN_NAME`, `TICKER`, `CHAIN`
-- `CONTRACT_ADDRESS` — leave empty to show "Coming soon". When set, every CA box updates and a Dexscreener chart button appears.
+- `CONTRACT_ADDRESS` — set to 0x446f33a65b0c1ed85167d1ca6749c35008a7a3c3. Leave empty to show "Coming soon". When set, every CA box updates and a Dexscreener chart button appears.
 - `BUY_URL` — leave empty. When a CA is set, Buy links become `https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=<CA>`.
-- `X_URL` — https://x.com/InuAnthropic
+- `X_URL` — https://x.com/AnthropicEthInu
 - `TELEGRAM_URL` — leave empty for a dimmed "Coming soon" button.
 
 Do not use any Solana-looking address from social bios.
