@@ -5,7 +5,6 @@ const CHAIN = 'Ethereum';
 const CONTRACT_ADDRESS = '0x446f33a65b0c1ed85167d1ca6749c35008a7a3c3'; // empty -> "Coming soon"
 const BUY_URL = ''; // when empty and CA is set, build the Uniswap link below
 const X_URL = 'https://x.com/AnthropicEthInu';
-const TELEGRAM_URL = ''; // empty -> dimmed "Coming soon"
 
 const UNISWAP_FOR = (ca) =>
   `https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=${ca}`;
@@ -54,7 +53,6 @@ function applyConfig() {
   $$('[data-x-link]').forEach((a) => { a.href = X_URL; a.target = '_blank'; a.rel = 'noopener'; });
 
   $$('[data-buy-link]').forEach((a) => bindSoon(a, buyUrl, 'Buy link coming soon.'));
-  $$('[data-tg-link]').forEach((a) => bindSoon(a, TELEGRAM_URL, 'Telegram coming soon.'));
   $$('[data-chart-link]').forEach((a) => {
     if (chartUrl) {
       a.href = chartUrl; a.target = '_blank'; a.rel = 'noopener';
